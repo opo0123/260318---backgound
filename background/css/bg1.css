@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+body {
+  background: url(../images/bg3.png) no-repeat right top;
+  /* 배경 고정 (기본은 scroll) */
+  background-attachment: fixed;
+}
+
+div {
+  width: 400px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 20px solid rgba(204, 204, 204, 0.5);
+  background: url(../images/bg4.png) no-repeat right top;
+}
+
+/* 배경 이미지 적용 범위 조절 */
+#bg1 {
+  /* 요소 박스까지 표시 (파란 박스) */
+  background-origin: content-box;
+}
+#bg2 {
+  /* 패딩까지 표시 (초록 박스) */
+  background-origin: padding-box;
+}
+#bg3 {
+  /* 테두리까지 표시 */
+  background-origin: border-box;
+}

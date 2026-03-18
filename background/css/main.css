@@ -13,12 +13,26 @@ a {
 }
 
 body {
-background-image: url(../images/bg.png);
+/* background-image: url(../images/bg.png); */
 /* 배경 이미지 반복 지정 */
 background-repeat: no-repeat;
 /* 가로 너비에 가득 찰 때까지 가로로 반복 */
 /* background-repeat: repeat-x; */
 /* 배경 이미지 위치 조정 */
 /* background-position: (수평) (수직); */
-/* background-position: left center; */
+background-position: left top;
+}
+
+ul{
+    width: 200px;
+    margin-left: 10px;
+}
+li{
+    /* background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px; */
+    background: url(../images/icon.png) no-repeat left center  / 20px ;
+    padding-left: 50px;
+    line-height: 40px;
 }
