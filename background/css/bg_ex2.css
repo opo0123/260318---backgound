@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* 제목 */
+.title {
+  height: 350px;
+  color: #ffffff;
+  text-align: center;
+  background: url(../images/bg_ex2.jpg) no-repeat center;
+  background-size: cover;
+}
+.title .text {
+  padding: 80px;
+}
+.title .text h2 {
+  margin-bottom: 10px;
+}
+.title p {
+  padding-bottom: 40px;
+  font-size: 12px;
+}
+.title .purchase-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+}
+.box-wrap {
+  height: 400px;
+  position: relative;
+}
+/* 영역2 */
+.box {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translatex(-50%);
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+section {
+  padding: 20px;
+  width: 450px;
+  background-color: rgb(250, 224, 255);
+}
+section p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* 입력폼 */
+.form-wrap {
+  background-color: rgb(16, 7, 83);
+  padding: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 30px;
+  width: 500px;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+}
+/* 입력란 */
+.form-text {
+  padding: 5px;
+}
+.form-text p {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+.form-text input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+}
+/* 이름 */
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.name input {
+  width: 205px;
+}
+/* 메세지 */
+#message {
+  padding: 16px;
+  margin-top: 5px;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+}
+/* send 버튼 */
+.send {
+  display: flex;
+  justify-content: flex-end;
+}
+#send {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 10px;
+  width: 90px;
+  border: none;
+  color: #ffffff;
+  background-color: blueviolet;
+}
